@@ -13,9 +13,6 @@ UCLASS()
 class CRAZYSUCKRACE_API USwitchSideCameraModifier : public UCameraModifier
 {
 	GENERATED_BODY()
-<<<<<<< Updated upstream
-	
-=======
 
 protected:
 
@@ -24,5 +21,4 @@ protected:
 
 	/** Allows modifying the post process in native code. */
 	virtual void ModifyPostProcess(float DeltaTime, float& PostProcessBlendWeight, FPostProcessSettings& PostProcessSettings) override;
->>>>>>> Stashed changes
 };

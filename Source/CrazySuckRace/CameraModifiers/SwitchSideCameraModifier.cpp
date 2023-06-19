@@ -1,10 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-<<<<<<< Updated upstream
-#include "CameraModifiers/SwitchSideCameraModifier.h"
-
-=======
 #include "SwitchSideCameraModifier.h"
 
 
@@ -19,4 +15,3 @@ void USwitchSideCameraModifier::ModifyPostProcess(float DeltaTime, float& PostPr
 	Super::ModifyPostProcess(DeltaTime, PostProcessBlendWeight, PostProcessSettings);
 	
 }
->>>>>>> Stashed changes
